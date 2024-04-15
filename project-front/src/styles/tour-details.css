@@ -1,0 +1,54 @@
+.tour__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .tour__info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .tour__info h2 .tour__info h5{
+    margin-bottom: 10px;
+  }
+  
+  .tour__extra-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .tour__extra-details span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tour__extra-details span i {
+    margin-right: 5px;
+  }
+  
+  .tour__info h5{
+margin-bottom: 1rem;
+font-style: 1.3rem;
+  }
+  .tour__info p{
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+
+
+  @media only screen and (max-width: 768px){
+    .tour__extra-details{
+      flex-wrap:wrap;
+      row-gap: 1rem;
+    }
+    .tour__extra-details span{
+      font-size: 0.9rem;
+    }
+    .tour__extra-details span i{
+      font-size: 1rem;
+    }
+  }
